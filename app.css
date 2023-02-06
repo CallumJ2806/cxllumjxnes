@@ -3,3 +3,55 @@
   padding: 0;
   margin: 0;
 }
+
+.error-container {
+  font-family: "Noto Sans Mono", monospace;
+  min-height: 100vh;
+  background-color: #20115b;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.robot--img {
+  width: 90px;
+}
+
+.text-wrap {
+  text-align: center;
+  padding: 5em;
+  border: solid #fff 2px;
+  border-radius: 10px;
+}
+
+.text-wrap h1 {
+  margin: 0.5em 0 0 0;
+  margin-bottom: 0.4em;
+}
+
+.text-wrap p {
+  margin-bottom: em;
+}
+
+.help-btn-container {
+  margin-top: 5em;
+}
+
+.help-btn {
+  margin-top: 5em;
+  background-color: #20115b;
+  padding: 0.3em 1.5em;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  font-family: "Noto Sans Mono", monospace;
+  color: #fff;
+  text-decoration: none;
+}
+
+.help-btn:hover {
+  font-weight: 500;
+  background-color: #fff;
+  color: #20115b;
+}
